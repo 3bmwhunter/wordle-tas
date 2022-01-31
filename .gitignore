@@ -1,0 +1,4 @@
+/analysis/.depend
+/analysis/*.o
+/analysis/*.out
+/analysis/*.json
