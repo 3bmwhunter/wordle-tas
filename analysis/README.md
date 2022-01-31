@@ -8,8 +8,8 @@ A C++ program that attempts to find the best combination of starting words. The 
 The programm will
 1. create a `word.json` file for the browser extension
 2. filter all words that don't have the specified length
-3. analyse the letter distribution of these words. the more occurances a letter has, the more favorable it's "score" is
-4. filter all words that share one or more letters. e.g. "hello" would be filtered, because it has two 'l's, "audio" wouldn't be filtered, because any letter occurs at most once.
+3. analyse the letter distribution of these words. the more occurances a letter has, the more favorable its "score" is
+4. filter all words that share one or more letters. e.g. "hello" would be filtered, because it has two 'l's, "audio" wouldn't be filtered, because any letter occurs once at most.
 5. find all possible permutations of words that don't share any letters. the same logic as in 3. applies.
 6. rank all permutations 
     - every letter is assigned a score based on the distribution determined in 2. 
